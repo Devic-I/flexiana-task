@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="20cc9a2c-c530-48b5-a66e-265244e5d306" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_scramble/core.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_scramble/core.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_scramble/routes.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_scramble/routes.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/word_scramble/scramble.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/word_scramble/scramble.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/word_scramble/core_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/word_scramble/core_test.clj" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Clojure Namespace" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gjicn6EOW3ygIVT6MHUpPuLNUA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./Users/devic/Documents/Coding-git/flexiana-task/word-scramble/src" value="clj" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/project.clj" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="ReplState" timestamp="1598691265581">{:repl-history {:ide [], :local [{:command &quot;(def test-string \&quot;aaaab\&quot;)&quot;, :offset 25, :ns &quot;word-scramble.core&quot;} {:command &quot;(frequencies test-string)&quot;, :offset 25, :ns &quot;word-scramble.core&quot;} {:command &quot;(def letter-map (frequencies test-string))&quot;, :offset 42, :ns &quot;word-scramble.core&quot;} {:command &quot;(print letter-map)&quot;, :offset 18, :ns &quot;word-scramble.core&quot;} {:command &quot;(kezs letter-map)&quot;, :offset 17, :ns &quot;word-scramble.core&quot;} {:command &quot;(keys letter-map)&quot;, :offset 17, :ns &quot;word-scramble.core&quot;} {:command &quot;(map (% letter-map) test-string)&quot;, :offset 32, :ns &quot;word-scramble.core&quot;} {:command &quot;(map #(% letter-map) test-string)&quot;, :offset 33, :ns &quot;word-scramble.core&quot;} {:command &quot;(\&quot;a\&quot; letter-map)&quot;, :offset 16, :ns &quot;word-scramble.core&quot;} {:command &quot;(:a {:a 2})&quot;, :offset 11, :ns &quot;word-scramble.core&quot;} {:command &quot;(\&quot;\\a\&quot; letter-map)&quot;, :offset 17, :ns &quot;word-scramble.core&quot;} {:command &quot;(\\a letter-map)&quot;, :offset 15, :ns &quot;word-scramble.core&quot;} {:command &quot;('(\\a) letter-map)&quot;, :offset 18, :ns &quot;word-scramble.core&quot;} {:command &quot;(get \&quot;a\&quot; letter-map)&quot;, :offset 20, :ns &quot;word-scramble.core&quot;} {:command &quot;(get \&quot;\\a\&quot; letter-map)&quot;, :offset 21, :ns &quot;word-scramble.core&quot;} {:command &quot;(frequencies (map (comp keyword str) test-string))\n&quot;, :offset 50, :ns &quot;word-scramble.core&quot;} {:command &quot;(str test-string)&quot;, :offset 17, :ns &quot;word-scramble.core&quot;} {:command &quot;(map keyword test-string)&quot;, :offset 25, :ns &quot;word-scramble.core&quot;} {:command &quot;(map (comp keyword str) test-string)&quot;, :offset 36, :ns &quot;word-scramble.core&quot;} {:command &quot;(map #(% test-string) (frequencies (map (comp keyword str) test-string)))&quot;, :offset 73, :ns &quot;word-scramble.core&quot;} {:command &quot;(def letter-map (frequencies (map (comp keyword str) test-string)))&quot;, :offset 67, :ns &quot;word-scramble.core&quot;} {:command &quot;letter-map&quot;, :offset 10, :ns &quot;word-scramble.core&quot;} {:command &quot;(map #(% letter-map) (keys letter-map))&quot;, :offset 39, :ns &quot;word-scramble.core&quot;} {:command &quot;(get-letter-map \&quot;aaab\&quot;)&quot;, :offset 23, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaaa\&quot; \&quot;bbbb\&quot;)&quot;, :offset 29, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aabbbcbccb\&quot; \&quot;bccccb\&quot;)&quot;, :offset 37, :ns &quot;word-scramble.core&quot;} {:command &quot;(def lala {2 1 1 2})&quot;, :offset 20, :ns &quot;word-scramble.core&quot;} {:command &quot;(2 lala)&quot;, :offset 8, :ns &quot;word-scramble.core&quot;} {:command &quot;lala&quot;, :offset 4, :ns &quot;word-scramble.core&quot;} {:command &quot;(def lala {:a 2 :b 3})&quot;, :offset 22, :ns &quot;word-scramble.core&quot;} {:command &quot;(:a lala)&quot;, :offset 9, :ns &quot;word-scramble.core&quot;} {:command &quot;(:c lala)&quot;, :offset 9, :ns &quot;word-scramble.core&quot;} {:command &quot;(&lt; 2 0)&quot;, :offset 7, :ns &quot;word-scramble.core&quot;} {:command &quot;(&lt; 2 nil)&quot;, :offset 9, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aabbbcbccb\&quot; \&quot;bccccba\&quot;)&quot;, :offset 38, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaa\&quot; \&quot;bb\&quot;)&quot;, :offset 26, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaa\&quot; \&quot;a\&quot;)&quot;, :offset 25, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaa\&quot; \&quot;ab\&quot;)&quot;, :offset 26, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaa\&quot; \&quot;abc\&quot;)&quot;, :offset 27, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabbc\&quot; \&quot;abc\&quot;)&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabc\&quot; \&quot;abc\&quot;)&quot;, :offset 29, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;abcc\&quot;)&quot;, :offset 31, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;abccc\&quot;)&quot;, :offset 32, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;abb\nccc\&quot;)&quot;, :offset 34, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;abbccc\&quot;)&quot;, :offset 33, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;abc\&quot;)&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaab cc\&quot; \&quot;ab c\&quot;)&quot;, :offset 32, :ns &quot;word-scramble.core&quot;} {:command &quot;(can-scramble? \&quot;aaabcc\&quot; \&quot;ab c\&quot;)&quot;, :offset 31, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? “rekqodlw” ”world')&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? \&quot;rekqodlw\&quot; \&quot;world\&quot;)&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true (scramble? \&quot;rekqodlw\&quot; \&quot;world\&quot;))&quot;, :offset 44, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (scramble? \&quot;rekqodlw\&quot; \&quot;world\&quot;))&quot;, :offset 45, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (scramble? \&quot;rekqodl\&quot; \&quot;world\&quot;))&quot;, :offset 44, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? \&quot;rekqodlw\&quot; \&quot;world\&quot;)\n&quot;, :offset 31, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? \&quot;rekqodlw\&quot; \&quot;wworld\&quot;)\n&quot;, :offset 31, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? \&quot;cedewaraaossoqqyt\&quot; \&quot;codewars\&quot;)&quot;, :offset 42, :ns &quot;word-scramble.core&quot;} {:command &quot;(scramble? \&quot;katas\&quot; \&quot;steak\&quot;)&quot;, :offset 27, :ns &quot;word-scramble.core&quot;} {:command &quot;(re-seq #\&quot;\\w+|\\W+\&quot; \&quot;This is a test. Only a test!\&quot;)&quot;, :offset 50, :ns &quot;word-scramble.core&quot;} {:command &quot;(count (re-seq #\&quot;\\w+|\\W+\&quot; \&quot;This is a test. Only a test!\&quot;))&quot;, :offset 58, :ns &quot;word-scramble.core&quot;} {:command &quot;(count (re-seq #\&quot;\\w+\&quot; \&quot;This is a test. Only a test!\&quot;))&quot;, :offset 54, :ns &quot;word-scramble.core&quot;} {:command &quot;(count (re-seq #\&quot;\\w+\&quot; \&quot;This\&quot;))&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(re-matches #\&quot;a-z\&quot; \&quot;test\&quot;)&quot;, :offset 26, :ns &quot;word-scramble.core&quot;} {:command &quot;(re-matches #\&quot;a-z\&quot; \&quot;testa\&quot;)&quot;, :offset 27, :ns &quot;word-scramble.core&quot;} {:command &quot;(re-matches #\&quot;a-z\&quot; \&quot;a\&quot;)&quot;, :offset 23, :ns &quot;word-scramble.core&quot;} {:command &quot;(re-matches #\&quot;a-z\&quot; \&quot;1\&quot;)&quot;, :offset 23, :ns &quot;word-scramble.core&quot;} {:command &quot;(filter #(Character/isLowerCase %) \&quot;ab\&quot;)&quot;, :offset 40, :ns &quot;word-scramble.core&quot;} {:command &quot;(filter #(Character/isLowerCase %) \&quot;AB\&quot;)&quot;, :offset 40, :ns &quot;word-scramble.core&quot;} {:command &quot;(if (filter #(Character/isLowerCase %) \&quot;AB\&quot;) :true :false)&quot;, :offset 58, :ns &quot;word-scramble.core&quot;} {:command &quot;(if (map #(Character/isLowerCase %) \&quot;AB\&quot;) :true :false)&quot;, :offset 55, :ns &quot;word-scramble.core&quot;} {:command &quot;(map #(Character/isLowerCase %) \&quot;AB\&quot;)&quot;, :offset 37, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;AB\&quot;))&quot;, :offset 52, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;ab\&quot;))&quot;, :offset 52, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;ab1\&quot;))&quot;, :offset 53, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;ab3\&quot;))&quot;, :offset 53, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;ab.\&quot;))&quot;, :offset 53, :ns &quot;word-scramble.core&quot;} {:command &quot;(every? true? (map #(Character/isLowerCase %) \&quot;a b\&quot;))&quot;, :offset 53, :ns &quot;word-scramble.core&quot;} {:command &quot;(str \&quot;ab\&quot; \&quot;cd\&quot;)&quot;, :offset 15, :ns &quot;word-scramble.core&quot;} {:command &quot;(str \&quot;ab\&quot; \&quot; cd\&quot;)&quot;, :offset 16, :ns &quot;word-scramble.core&quot;} {:command &quot;(map keyword \&quot;str\&quot;)&quot;, :offset 19, :ns &quot;word-scramble.core&quot;} {:command &quot;(str \&quot;str\&quot;)&quot;, :offset 11, :ns &quot;word-scramble.core&quot;} {:command &quot;(keyword (str \&quot;str\&quot;))&quot;, :offset 21, :ns &quot;word-scramble.core&quot;} {:command &quot;(map #(println %) (keyword (str \&quot;str\&quot;)))&quot;, :offset 40, :ns &quot;word-scramble.core&quot;} {:command &quot;(map (comp keyword str) \&quot;str\&quot;)&quot;, :offset 30, :ns &quot;word-scramble.core&quot;} {:command &quot;(map str \&quot;str\&quot;)&quot;, :offset 15, :ns &quot;word-scramble.core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure REPL.REPL for word-scramble">
+    <configuration name="REPL for word-scramble" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="word-scramble" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="replPortFileType" value="STANDARD" />
+      <setting name="customPortFile" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word-scramble.core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="word-scramble" />
+      <setting name="path" value="" />
+      <setting name="namespace" value="word-scramble.core" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure REPL.REPL for word-scramble" />
+        <item itemvalue="Clojure Application.word-scramble.core" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="20cc9a2c-c530-48b5-a66e-265244e5d306" name="Default Changelist" comment="" />
+      <created>1598634487258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598634487258</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="328" y="82" key="#Project_Structure" timestamp="1598640193043">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="328" y="82" key="#Project_Structure/0.23.1680.956@0.23.1680.956" timestamp="1598640193043" />
+    <state x="349" y="140" key="SettingsEditor" timestamp="1598640162516">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="349" y="140" key="SettingsEditor/0.23.1680.956@0.23.1680.956" timestamp="1598640162516" />
+    <state x="541" y="90" width="598" height="822" key="find.popup" timestamp="1598642536013">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="541" y="90" width="598" height="822" key="find.popup/0.23.1680.956@0.23.1680.956" timestamp="1598642536013" />
+    <state width="600" height="367" key="javadoc.popup" timestamp="1598643360907">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state width="600" height="367" key="javadoc.popup/0.23.1680.956@0.23.1680.956" timestamp="1598643360907" />
+    <state x="505" y="230" key="run.anything.popup" timestamp="1598639185261">
+      <screen x="0" y="23" width="1680" height="956" />
+    </state>
+    <state x="505" y="230" key="run.anything.popup/0.23.1680.956@0.23.1680.956" timestamp="1598639185261" />
+  </component>
+</project>
