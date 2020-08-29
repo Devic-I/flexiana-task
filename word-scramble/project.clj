@@ -7,7 +7,8 @@
                  [http-kit "2.2.0"],
                  [compojure "1.6.1"]
                  [http-kit "2.3.0"]
-                 [ring/ring-defaults "0.3.2"]]
+                 [ring/ring-defaults "0.3.2"]
+                 [ring-cors "0.1.13"]]
   :main ^:skip-aot word-scramble.core
   :target-path "target/%s"
   :profiles {:system {:plugins [[lein-cljfmt "0.6.1"]]}
